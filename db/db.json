@@ -1,0 +1,46 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "phone": "123-456-7890",
+      "address": "123 Main St",
+      "city": "Cochabamba",
+      "country": "Bolivia",
+      "groupId": 1,
+      "group": {
+        "id": 1,
+        "name": "Family"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "phone": "987-654-3210",
+      "address": "456 Elm St",
+      "city": "La Paz",
+      "country": "Bolivia",
+      "groupId": 2,
+      "group": {
+        "id": 2,
+        "name": "Friends"
+      }
+    }
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "name": "Family"
+    },
+    {
+      "id": 2,
+      "name": "Friends"
+    },
+    {
+      "name": "Juegos",
+      "id": 3
+    }
+  ]
+}

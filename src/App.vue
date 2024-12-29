@@ -1,9 +1,24 @@
 <template>
-  <nav>
-    <router-link to="/" />
-  </nav>
+  <Menu>
+    <router-link to="/">Contactos</router-link>
+    <router-link to="/groups">Grupos</router-link>
+  </Menu>
   <router-view />
 </template>
+
+<script>
+import Menu from "./components/Menu.vue";
+
+export default {
+  name: "App",
+  data() {
+    return {};
+  },
+  components: {
+    Menu,
+  },
+};
+</script>
 
 <style lang="scss">
 #app {

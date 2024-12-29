@@ -1,17 +1,23 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import { createRouter, createWebHistory } from "vue-router";
+import ContactView from "../views/contact/ContactView.vue";
+import GrouptView from "../views/group/GroupView.vue";
 
 const routes = [
   {
-    path: '/',
-    name: 'home',
-    component: HomeView
-  }
-]
+    path: "/",
+    name: "ContactView",
+    component: ContactView,
+  },
+  {
+    path: "/groups",
+    name: "GroupView",
+    component: GrouptView,
+  },
+];
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
-  routes
-})
+  routes,
+});
 
-export default router
+export default router;
